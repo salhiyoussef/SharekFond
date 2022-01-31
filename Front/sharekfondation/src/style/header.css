@@ -9,6 +9,7 @@
 }
 .container_fluid {
     padding: 15px;
+    
 }
 input#autocompleteSearch {
     width: 300px;
