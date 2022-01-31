@@ -1,0 +1,61 @@
+
+* {
+    
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.side_content_row {
+    padding-left: 5px;
+    justify-content: space-between;
+}
+.container_fluid {
+    padding: 15px;
+}
+input#autocompleteSearch {
+    width: 300px;
+    border-color: rgb(169,194,211);
+    box-sizing: border-box;
+    vertical-align: middle;
+    font-size: 16px;
+    padding: 13px 70px 13px 13px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    position: relative;
+    color: #555D65;
+    border-radius: 1px;
+    border: 1px solid #CCD8E2;
+    font-family: 'aktivgrotesk',sans-serif;
+    border-radius: 30px;
+}
+.container_header{
+    margin: 0 auto;
+    max-width: 100%;
+    width: 90%;
+}
+.header{
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    background: transparent;
+    background-image: linear-gradient(180deg,rgba(24,29,37,.8) 2%,rgba(24,29,37,0) 98%);
+}
+input#autocompleteSearch:before {
+    width: 50px;
+    height: 50px;
+    content: "";
+    background: url("https://d4e7wxbvl20c1.cloudfront.net/images.flyer.eu/2019/search.svg");
+    position: absolute;
+}
+.hide {
+    display: none;
+}
+.nav_link>a{
+color :#ffff;
+font-size: 17px;
+padding: 5px 5px 5px 5px;
+}
+.nav_link>a:hover{
+    border-bottom: 1px solid white;
+    color :#ffff;
+    font-size: 17px;
+    padding: 5px 5px 5px 5px;
+}

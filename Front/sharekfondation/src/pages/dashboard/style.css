@@ -1,0 +1,134 @@
+.container_hompage{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 100%; 
+}
+.visionnement {
+    display: flex;
+    justify-content: space-evenly;
+}
+.visionnement svg {
+    margin-top: 5px;
+    color: #00ccf9;
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+.visionnement h2 {
+    color: #00ccf9;
+}
+.visionnement .ant-card-body {
+    color: #262e44;
+    font-size: 20px;
+    font-family: "JF Flat";
+    font-weight: 400;
+    line-height: 1.5;
+}
+.visionnement .ant-col .ant-card{
+    border-radius: 5px;
+    box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.15);
+}
+.Nos_valeurs .ant-col {
+    z-index: 1;
+    display: flex;
+    color: #00ccf9;
+    font-size: 30px;
+    justify-content: center;
+    border-bottom: 2px solid #00ccf9;
+    position: absolute;
+    background-color: white;
+}
+/* .Nos_valeurs{
+    width: 100%;
+    margin: 0 auto !important;
+} */
+.visionnement .valeurs_slider .ant-col .ant-card{
+    box-shadow:initial !important;
+}
+.visionnement .slick-slide .ant-col {
+    padding: 0px !important;
+} 
+
+.banner_background {
+    position: relative;
+    z-index: 1;
+    padding-right: 1.5625vw;
+    padding-left: 1.5625vw;
+    height: 44.25002vw;
+    background-image: radial-gradient(circle at 0 51%,rgba(24,29,37,0) 67%,rgba(24,29,37,.6) 71% , rgba(24,29,37,.8) 74%,#273b4b 78%),linear-gradient(180deg,rgba(24,29,37,0) 86%,rgb(45, 69, 86) 96%,#181d25);
+    width: 100%;
+}
+.body_content{
+    width: 100%;
+    padding-top: 20px;
+    position: relative;
+    background-color: white
+}
+.banner{
+    height: 44.25002vw;
+    width: 100%;
+    display: flex;
+}
+.banner iframe {
+    position: fixed;
+    margin-top: -67px;
+}
+.body_content .All_Content{
+    width: 80%;
+    margin: 0 auto;
+}
+.banner__centent {
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    right: 100px;
+    color: white;
+    top: 180px;
+    position: absolute;
+    width: 17vw;
+}
+.banner__centent > h2 {
+    font-size: 37px;
+    color: white;
+    margin-bottom: 30px;
+}
+.banner__centent > a {
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    padding: 5px 40px 5px 40px;
+    border-radius: 32px;
+}
+.banner__centent > p {
+    font-size: 21px;
+    color: white;
+}
+
+
+.banner__centent > a:hover {
+	background: linear-gradient(-45deg, #23a6d5, #fff, #23a6d5, #fff);
+	background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    width: 100%;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 20%;
+	}
+	20% {
+		background-position: 20% 40%;
+	}
+	40% {
+		background-position: 40% 60%;
+	}
+	60% {
+		background-position: 60% 80%;
+	}
+	80% {
+		background-position: 80% 100%;
+	}
+	100% {
+		background-position: 100% 0%;
+	}
+}

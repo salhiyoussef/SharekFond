@@ -1,0 +1,45 @@
+.banner_about{
+    position: relative;
+}
+.banner_about img{
+    width: 100%;
+}
+.banner_about p{
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    font-size: 34px;
+}
+.banner_about .container{
+	max-width: 100%;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.banner_about {
+	background: linear-gradient(-45deg, #23a6d5, #fff, #23a6d5, #fff);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 20%;
+	}
+	20% {
+		background-position: 20% 40%;
+	}
+	40% {
+		background-position: 40% 60%;
+	}
+	60% {
+		background-position: 60% 80%;
+	}
+	80% {
+		background-position: 80% 100%;
+	}
+	100% {
+		background-position: 100% 0%;
+	}
+}
